@@ -1,11 +1,4 @@
-import React from "react";
-import Chart from "../../components/chart/Chart";
-import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
-
-import "./home.css";
-import { userData } from "../../dummyData";
-
-const userData2 = [
+export const userData = [
   {
     name: "Jan",
     "Active User": 4000,
@@ -79,19 +72,3 @@ const userData2 = [
     amt: 2100,
   },
 ];
-
-function Home() {
-  return (
-    <div className="home">
-      <FeaturedInfo />
-      <Chart
-        grid
-        data={userData2}
-        title="User Analytics"
-        dataKey="Active User"
-      />
-    </div>
-  );
-}
-
-export default Home;
