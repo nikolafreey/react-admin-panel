@@ -1,4 +1,19 @@
-import { LineStyle, Timeline, TrendingUp } from "@material-ui/icons";
+import { ModalManager } from "@material-ui/core";
+import {
+  BarChartOutlined,
+  Brightness1Outlined,
+  FeedbackOutlined,
+  LineStyle,
+  MailOutlined,
+  MessageOutlined,
+  Money,
+  ReportOutlined,
+  ShopOutlined,
+  Timeline,
+  TrendingUp,
+  TrendingUpOutlined,
+  VerifiedUserOutlined,
+} from "@material-ui/icons";
 import React from "react";
 
 import "./sidebar.css";
@@ -28,16 +43,20 @@ function Sidebar() {
           <div className="sidebarTitle">Quick Menu</div>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <LineStyle className="sidebarIcon" />
-              Home
+              <VerifiedUserOutlined className="sidebarIcon" />
+              Users
             </li>
             <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
+              <ShopOutlined className="sidebarIcon" />
+              Products
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
+              <Money className="sidebarIcon" />
+              Transactions
+            </li>
+            <li className="sidebarListItem">
+              <BarChartOutlined className="sidebarIcon" />
+              Reports
             </li>
           </ul>
         </div>
@@ -45,15 +64,15 @@ function Sidebar() {
           <div className="sidebarTitle">Notifications</div>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <LineStyle className="sidebarIcon" />
-              Home
+              <MailOutlined className="sidebarIcon" />
+              Mail
             </li>
             <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
+              <FeedbackOutlined className="sidebarIcon" />
+              Feedback
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
+              <MessageOutlined className="sidebarIcon" />
               Sales
             </li>
           </ul>
@@ -62,16 +81,16 @@ function Sidebar() {
           <div className="sidebarTitle">Staff</div>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <LineStyle className="sidebarIcon" />
-              Home
+              <Brightness1Outlined className="sidebarIcon" />
+              Manage
             </li>
             <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
+              <TrendingUpOutlined className="sidebarIcon" />
               Analytics
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
+              <ReportOutlined className="sidebarIcon" />
+              Reports
             </li>
           </ul>
         </div>
