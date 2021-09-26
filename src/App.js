@@ -4,6 +4,7 @@ import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home";
+import NewProduct from "./pages/newProduct/NewProduct";
 import NewUser from "./pages/newUser/NewUser";
 import Product from "./pages/product/Product";
 import ProductList from "./pages/productList/ProductList";
@@ -36,7 +37,7 @@ function App() {
             <Product />
           </Route>
           <Route exact path="/newProduct">
-            <NewUser />
+            <NewProduct />
           </Route>
         </Switch>
       </div>
