@@ -115,3 +115,46 @@ export const userRows = [
     transaction: "$120.00",
   },
 ];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple AirPods Pro",
+    img: "/logo512.png",
+    stock: 123,
+    status: "Active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "Apple AirPods Pro",
+    img: "/logo512.png",
+    stock: 123,
+    status: "Active",
+    price: "$120.00",
+  },
+  {
+    id: 3,
+    name: "Apple AirPods Pro",
+    img: "/logo512.png",
+    stock: 123,
+    status: "Active",
+    price: "$120.00",
+  },
+  {
+    id: 4,
+    name: "Apple AirPods Pro",
+    img: "/logo512.png",
+    stock: 123,
+    status: "Active",
+    price: "$120.00",
+  },
+  {
+    id: 5,
+    name: "Apple AirPods Pro",
+    img: "/logo512.png",
+    stock: 123,
+    status: "Active",
+    price: "$120.00",
+  },
+];
