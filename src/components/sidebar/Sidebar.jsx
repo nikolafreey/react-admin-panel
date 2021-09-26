@@ -15,6 +15,7 @@ import {
   VerifiedUserOutlined,
 } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./sidebar.css";
 
@@ -42,14 +43,18 @@ function Sidebar() {
         <div className="sidebarMenu">
           <div className="sidebarTitle">Quick Menu</div>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <VerifiedUserOutlined className="sidebarIcon" />
-              Users
-            </li>
-            <li className="sidebarListItem">
-              <ShopOutlined className="sidebarIcon" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebarListItem">
+                <VerifiedUserOutlined className="sidebarIcon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="sidebarListItem">
+                <ShopOutlined className="sidebarIcon" />
+                Products
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <Money className="sidebarIcon" />
               Transactions

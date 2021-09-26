@@ -4,6 +4,7 @@ import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home";
+import NewUser from "./pages/newUser/NewUser";
 import User from "./pages/user/User";
 import UserList from "./pages/userList/UserList";
 
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/user/:userId">
             <User />
+          </Route>
+          <Route exact path="/newUser">
+            <NewUser />
           </Route>
         </Switch>
       </div>
