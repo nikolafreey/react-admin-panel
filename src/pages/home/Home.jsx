@@ -4,6 +4,8 @@ import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 
 import "./home.css";
 import { userData } from "../../dummyData";
+import WidgetSmall from "../../components/widgetSmall/WidgetSmall";
+import WidgetLarge from "../../components/widgetLarge/WidgetLarge";
 
 const userData2 = [
   {
@@ -90,6 +92,10 @@ function Home() {
         title="User Analytics"
         dataKey="Active User"
       />
+      <div className="homeWidgets">
+        <WidgetSmall />
+        <WidgetLarge />
+      </div>
     </div>
   );
 }
