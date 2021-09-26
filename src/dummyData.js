@@ -77,7 +77,7 @@ export const userRows = [
   {
     id: 1,
     username: "Jon Snow",
-    avatar: "logo512.png",
+    avatar: "/logo512.png",
     email: "jonsnow@gmail.com",
     status: "Active",
     transaction: "$120.00",
@@ -85,7 +85,7 @@ export const userRows = [
   {
     id: 2,
     username: "Jon Snow",
-    avatar: "logo512.png",
+    avatar: "/logo512.png",
     email: "jonsnow@gmail.com",
     status: "Active",
     transaction: "$120.00",
@@ -93,7 +93,7 @@ export const userRows = [
   {
     id: 3,
     username: "Jon Snow",
-    avatar: "logo512.png",
+    avatar: "/logo512.png",
     email: "jonsnow@gmail.com",
     status: "Active",
     transaction: "$120.00",
@@ -101,7 +101,7 @@ export const userRows = [
   {
     id: 4,
     username: "Jon Snow",
-    avatar: "logo512.png",
+    avatar: "/logo512.png",
     email: "jonsnow@gmail.com",
     status: "Active",
     transaction: "$120.00",
@@ -109,7 +109,7 @@ export const userRows = [
   {
     id: 5,
     username: "Jon Snow",
-    avatar: "logo512.png",
+    avatar: "/logo512.png",
     email: "jonsnow@gmail.com",
     status: "Active",
     transaction: "$120.00",

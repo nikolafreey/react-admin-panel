@@ -18,7 +18,11 @@ function WidgetLarge() {
         </tr>
         <tr className="widgetLargeTr">
           <td className="widgetLargeUser">
-            <img src="logo512.png" alt="Logo512" className="widgetLargeImage" />
+            <img
+              src="/logo512.png"
+              alt="Logo512"
+              className="widgetLargeImage"
+            />
             <span className="widgetLargeName">Susan Carol</span>
           </td>
           <td className="widgetLargeDate">2 Jun 2021</td>
@@ -29,7 +33,11 @@ function WidgetLarge() {
         </tr>
         <tr className="widgetLargeTr">
           <td className="widgetLargeUser">
-            <img src="logo512.png" alt="Logo512" className="widgetLargeImage" />
+            <img
+              src="/logo512.png"
+              alt="Logo512"
+              className="widgetLargeImage"
+            />
             <span className="widgetLargeName">Susan Carol</span>
           </td>
           <td className="widgetLargeDate">2 Jun 2021</td>
@@ -40,7 +48,11 @@ function WidgetLarge() {
         </tr>
         <tr className="widgetLargeTr">
           <td className="widgetLargeUser">
-            <img src="logo512.png" alt="Logo512" className="widgetLargeImage" />
+            <img
+              src="/logo512.png"
+              alt="Logo512"
+              className="widgetLargeImage"
+            />
             <span className="widgetLargeName">Susan Carol</span>
           </td>
           <td className="widgetLargeDate">2 Jun 2021</td>
@@ -51,7 +63,11 @@ function WidgetLarge() {
         </tr>
         <tr className="widgetLargeTr">
           <td className="widgetLargeUser">
-            <img src="logo512.png" alt="Logo512" className="widgetLargeImage" />
+            <img
+              src="/logo512.png"
+              alt="Logo512"
+              className="widgetLargeImage"
+            />
             <span className="widgetLargeName">Susan Carol</span>
           </td>
           <td className="widgetLargeDate">2 Jun 2021</td>

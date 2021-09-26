@@ -20,7 +20,7 @@ function Topbar() {
           <div className="topbarIconContainer">
             <Settings />
           </div>
-          <img src="logo192.png" alt="Logo" className="topAvatar" />
+          <img src="/logo192.png" alt="Logo192" className="topAvatar" />
         </div>
       </div>
     </div>
