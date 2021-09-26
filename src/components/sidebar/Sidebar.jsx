@@ -26,10 +26,12 @@ function Sidebar() {
         <div className="sidebarMenu">
           <div className="sidebarTitle">Dashboard</div>
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sidebarListItem active">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
